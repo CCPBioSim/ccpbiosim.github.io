@@ -1,0 +1,49 @@
+{
+  "containers": {
+    "jupyterhub-base": {
+      "latest": "2025-09-22"
+    },
+    "structure-validation-uglymol": {
+      "latest": "2025-09-22"
+    },
+    "structure-validation-workshop": {
+      "latest": "2025-09-22"
+    },
+    "basic-statistics-workshop": {
+      "latest": "2025-09-22"
+    },
+    "aiida-lysozyme-workshop": {
+      "latest": "2025-09-22"
+    },
+    "basic-analysis-workshop": {
+      "latest": "2025-09-22"
+    },
+    "equilibration-workshop": {
+      "latest": "2025-09-22"
+    },
+    "ubiquitin-analysis-workshop": {
+      "latest": "2025-09-22"
+    },
+    "clustering-workshop": {
+      "latest": "2025-09-22"
+    },
+    "aiida-gpcr-workshop": {
+      "latest": "2025-09-22"
+    },
+    "pca-workshop": {
+      "latest": "2025-09-22"
+    },
+    "python-workshop": {
+      "latest": "2025-09-22"
+    },
+    "pdb2pqr-workshop": {
+      "latest": "2025-09-22"
+    },
+    "docking-workflow": {
+      "latest": "2025-09-22"
+    },
+    "qmmm-workshop": {
+      "latest": "2025-09-22"
+    }
+  }
+}
