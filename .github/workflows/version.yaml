@@ -1,0 +1,69 @@
+name: version handler
+
+on:
+  repository_dispatch:
+    types: [build]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-pr:
+    name: update with PR
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5.0.0
+        with:
+         fetch-depth: 0
+
+      - name: check branch exists
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          prs=$(gh pr list \
+            --repo "$GITHUB_REPOSITORY" \
+            --head 'version-updates' \
+            --base 'main' \
+            --json title \
+            --jq 'length')
+          if ((prs > 0)); then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: checkout branch
+        if: 'steps.check.outputs.exists'
+        run: |
+          git config --global user.name 'jimboid'
+          git config --global user.email 'jimboid@users.noreply.github.com'
+          git checkout version-updates
+
+      - name: update version in json
+        run: |  
+          jq --arg a "${{ github.event.client_payload.tag }}" '.containers."${{ github.event.client_payload.repo }}".latest = ($a)' workshop.json | jq "." | cat > workshop2.json; mv workshop2.json workshop.json
+
+      - name: display
+        run: |
+          cat workshop.json
+
+      - name: push changes
+        if: 'steps.check.outputs.exists'
+        run: |
+          git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
+          git push
+
+      - name: send PR
+        if: '!steps.check.outputs.exists'
+        uses: peter-evans/create-pull-request@v7.0.8
+        with:
+          commit-message: Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}
+          branch: version-updates
+          title: "Update to workshop.json"
+          body: |
+            Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}
+          base: main
+          assignees: jimboid
+          signoff: false
+          draft: false
