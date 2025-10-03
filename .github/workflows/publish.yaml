@@ -28,6 +28,7 @@ jobs:
         run: |
           cd pages
           make
+          cp ../workshop.json build/html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4.0.0
