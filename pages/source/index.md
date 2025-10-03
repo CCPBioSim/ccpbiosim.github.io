@@ -10,6 +10,7 @@ maxdepth: 2
 caption: Contents:
 ---
 workshops-dash.md
+software-dash.md
 ```
 
 ## Indices and tables
