@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.abspath(".."))
 
 # -- Project information -----------------------------------------------------
 
-project = "ccpbiosim dev"
+project = "Developers Resources"
 copyright_first_year = "2025"
 copyright_owners = "CCPBioSim"
 author = "James Gebbie-Rayet"
