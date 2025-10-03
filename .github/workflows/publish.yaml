@@ -1,0 +1,38 @@
+name: pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5.0.0
+
+      - name: setup python
+        uses: actions/setup-python@v6.0.0
+        with:
+          python-version: 3.13
+
+      - name: Install dependencies
+        run: |
+          pip install sphinx sphinx_rtd_theme sphinxcontrib-contentui sphinxcontrib-details-directive sphinx_copybutton furo myst_parser
+
+      - name: Sphinx build
+        run: |
+          cd pages
+          make
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: pages/build/html
+          force_orphan: true
