@@ -1,49 +1,49 @@
 {
   "containers": {
     "jupyterhub-base": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "structure-validation-uglymol": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "structure-validation-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "basic-statistics-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "aiida-lysozyme-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "basic-analysis-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "equilibration-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "ubiquitin-analysis-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "clustering-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "aiida-gpcr-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "pca-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "python-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "pdb2pqr-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "docking-workflow": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     },
     "qmmm-workshop": {
-      "latest": "2025-09-29"
+      "latest": "2025-10-06"
     }
   }
 }
