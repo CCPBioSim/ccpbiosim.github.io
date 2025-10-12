@@ -45,4 +45,20 @@ These containers are in various stages of active development, but not deployed.
 
 ## Retired Workshop Containers
 
-These container repositories are obsolete.
+These container repositories are obsolete or require work to modernise them.
+
+| Container Source                       |
+| -------------------------------------- |
+| [biosimspace-alchemistry-workshop](https://github.com/CCPBioSim/BSS-alchemistry-workshop) |
+| [dna-workshop](https://github.com/CCPBioSim/dna-workshop) |
+| [feanalysis-workshop](https://github.com/CCPBioSim/feanalysis-workshop) |
+| [fesetup-workshop](https://github.com/CCPBioSim/fesetup-workshop) |
+| [gcmc-protoms-workshop](https://github.com/CCPBioSim/gcmc-protoms-workshop) |
+| [isambard-workshop](https://github.com/CCPBioSim/isambard-workshop) |
+| [longbow-workshop](https://github.com/CCPBioSim/longbow-workshop) |
+| [markov-state-modeling-workshop](https://github.com/CCPBioSim/msm-workshop) |
+| [md-workshop](https://github.com/CCPBioSim/md-workshop) |
+| [propka-workshop](https://github.com/CCPBioSim/propka-workshop) |
+| [xswaps-workshop](https://github.com/CCPBioSim/xswaps-workshop) |
+
+
