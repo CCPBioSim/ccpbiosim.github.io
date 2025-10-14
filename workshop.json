@@ -40,7 +40,7 @@
       "latest": "2025-10-13"
     },
     "docking-workflow": {
-      "latest": "2025-10-13"
+      "latest": "2025-10-14"
     },
     "qmmm-workshop": {
       "latest": "2025-10-13"
@@ -55,7 +55,10 @@
       "latest": "2025-10-10"
     },
     "tw2025-openff-workshop": {
-      "latest": "2025-10-12"
+      "latest": "2025-10-14"
+    },
+    "tw2025-coarse-graining-workshop": {
+      "latest": "2025-10-14"
     }
   }
 }
