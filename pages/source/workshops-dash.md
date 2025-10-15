@@ -49,17 +49,17 @@ These containers are in various stages of active development, but not deployed.
 
 These container repositories are obsolete or require work to modernise them.
 
-| Container Source                       |
-| -------------------------------------- |
-| [biosimspace-alchemistry](https://github.com/CCPBioSim/BSS-alchemistry-workshop) |
-| [feanalysis](https://github.com/CCPBioSim/feanalysis-workshop) |
-| [fesetup](https://github.com/CCPBioSim/fesetup-workshop) |
-| [gcmc-protoms](https://github.com/CCPBioSim/gcmc-protoms-workshop) |
-| [isambard](https://github.com/CCPBioSim/isambard-workshop) |
-| [longbow](https://github.com/CCPBioSim/longbow-workshop) |
-| [markov-state-modeling](https://github.com/CCPBioSim/msm-workshop) |
-| [md](https://github.com/CCPBioSim/md-workshop) |
-| [propka](https://github.com/CCPBioSim/propka-workshop) |
-| [xswaps](https://github.com/CCPBioSim/xswaps-workshop) |
+| Container Source                       | Status |
+| -------------------------------------- | ------ |
+| [biosimspace-alchemistry](https://github.com/CCPBioSim/BSS-alchemistry-workshop) | |
+| [feanalysis](https://github.com/CCPBioSim/feanalysis-workshop) | |
+| [fesetup](https://github.com/CCPBioSim/fesetup-workshop) | Retired permenantly |
+| [gcmc-protoms](https://github.com/CCPBioSim/gcmc-protoms-workshop) | |
+| [isambard](https://github.com/CCPBioSim/isambard-workshop) | |
+| [longbow](https://github.com/CCPBioSim/longbow-workshop) | Needs work to modernise - also requires HPC accounts so difficult to run at home |
+| [markov-state-modeling](https://github.com/CCPBioSim/msm-workshop) | |
+| [md](https://github.com/CCPBioSim/md-workshop) | |
+| [propka](https://github.com/CCPBioSim/propka-workshop) | |
+| [xswaps](https://github.com/CCPBioSim/xswaps-workshop) | |
 
 
