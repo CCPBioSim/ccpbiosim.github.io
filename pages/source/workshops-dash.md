@@ -52,7 +52,6 @@ These container repositories are obsolete or require work to modernise them.
 | Container Source                       |
 | -------------------------------------- |
 | [biosimspace-alchemistry](https://github.com/CCPBioSim/BSS-alchemistry-workshop) |
-| [dna](https://github.com/CCPBioSim/dna-workshop) |
 | [feanalysis](https://github.com/CCPBioSim/feanalysis-workshop) |
 | [fesetup](https://github.com/CCPBioSim/fesetup-workshop) |
 | [gcmc-protoms](https://github.com/CCPBioSim/gcmc-protoms-workshop) |
