@@ -4,7 +4,7 @@ This is a dashboard overview that details the status of software projects.
 
 ## Actively Maintained Software
 
-These software packages are currently being actively maintained and fullfil the onboarding requirements of long-term supported software.
+These software packages are currently being actively maintained and fulfill the onboarding requirements of long-term supported software.
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
@@ -16,16 +16,17 @@ These packages have repositories on our organisation repository, but the code is
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
-| [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) |                            |
+|             |                            |
 
-## Specialised User/Testing Environments
+## Specialised Apps/User/Test Environments
 
 These repositories contain builds or code for containerised user production or testing environments for testing other software.
 
 | Test Environment | Type | Repository and CI Snapshot |
 | ---------------- | ---- | -------------------------- |
-|                  | Test |                            |
-|                  | User |                            |
+| [aiida-plugin-testbase](https://github.com/CCPBioSim/aiida-plugin-testbase) | Test |                            |
+| [aiida-with-gromacs](https://github.com/CCPBioSim/aiida-with-gromacs) | User |                            |
+| [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) | Apps |                            |
 
 ## Retired Software
 
@@ -33,5 +34,5 @@ These software packages have reached end of life and are no longer being activel
 
 | Application | Reason                     |
 | ----------- | -------------------------- |
-| [enlighten-chemshell-wrapper](https://github.com/CCPBioSim/enlighten-chemshell-wrapper) | Retired because it has been superceded by [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) |
-| [FESetup](https://github.com/CCPBioSim/fesetup) | Retired because it has been superceded by [BioSimSpace](https://github.com/CCPBioSim/BioSimSpace) |
+| [enlighten-chemshell-wrapper](https://github.com/CCPBioSim/enlighten-chemshell-wrapper) | Retired because it has been superseded by [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) |
+| [FESetup](https://github.com/CCPBioSim/fesetup) | Retired because it has been superseded by [BioSimSpace](https://github.com/CCPBioSim/BioSimSpace) |
