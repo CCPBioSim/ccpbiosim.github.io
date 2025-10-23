@@ -16,9 +16,11 @@ These packages have repositories on our organisation repository, but the code is
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
-| aiida-amber            |                            |
-| aiida-gromacs            |                            |
-| Rex           |                            |
+| [aiida-amber](https://github.com/CCPBioSim/aiida-amber) |                            |
+| [aiida-gromacs](https://github.com/CCPBioSim/aiida-gromacs) |                            |
+| [Rex](https://github.com/CCPBioSim/Rex) |                            |
+| [SIST_code](https://github.com/CCPBioSim/SIST_code) |                            |
+
 
 ## Specialised Apps/User/Test Environments
 
