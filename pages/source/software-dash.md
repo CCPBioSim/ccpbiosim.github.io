@@ -4,8 +4,35 @@ This is a dashboard overview that details the status of software projects.
 
 ## Actively Maintained Software
 
-These software packages are currently being actively maintained by the BioSim community and STFC:CoSeC.
+These software packages are currently being actively maintained and fulfill the onboarding requirements of long-term supported software.
+
+| Application | Repository and CI Snapshot |
+| ----------- | -------------------------- |
+| [CodeEntropy](https://github.com/ccPBioSim/CodeEntropy/) | [![ci](https://github.com/ccpbiosim/CodeEntropy/actions/workflows/project-ci.yaml/badge.svg?branch=main)](https://github.com/ccpbiosim/CodeEntropy/actions/workflows/project-ci.yaml) [![issues](https://img.shields.io/github/issues/ccpbiosim/CodeEntropy?logo=github&labelColor=grey)](https://github.com/CCPBioSim/CodeEntropy/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/CodeEntropy?logo=github&labelColor=grey)](https://github.com/CCPBioSim/CodeEntropy/pulls) [![Docs - Status](https://app.readthedocs.org/projects/codeentropy/badge/?version=latest)](https://codeentropy.readthedocs.io/en/latest/?badge=latest) ![PyPI - Version](https://img.shields.io/pypi/v/codeentropy?logo=pypi&logoColor=white) ![PyPI - Status](https://img.shields.io/pypi/status/codeentropy?logo=pypi&logoColor=white) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/CodeEntropy) ![PyPI - Total Downloads](https://img.shields.io/pepy/dt/codeentropy?logo=pypi&logoColor=white&color=blue) ![PyPI - Monthly Downloads](https://img.shields.io/pypi/dm/CodeEntropy?logo=pypi&logoColor=white&color=blue) [![Coverage Status](https://coveralls.io/repos/github/CCPBioSim/CodeEntropy/badge.svg?branch=main)](https://coveralls.io/github/CCPBioSim/CodeEntropy?branch=main) |
+
+## Software in Early Development/Being Addopted for Maintenance
+
+These packages have repositories on our organisation repository, but the code is either in early stage development or in the process of being addopted for long-term maintenance.
+
+| Application | Repository and CI Snapshot |
+| ----------- | -------------------------- |
+|             |                            |
+
+## Specialised Apps/User/Test Environments
+
+These repositories contain builds or code for containerised user production or testing environments for testing other software.
+
+| Test Environment | Type | Repository and CI Snapshot |
+| ---------------- | ---- | -------------------------- |
+| [aiida-plugin-testbase](https://github.com/CCPBioSim/aiida-plugin-testbase) | Test |                            |
+| [aiida-with-gromacs](https://github.com/CCPBioSim/aiida-with-gromacs) | User |                            |
+| [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) | Apps |                            |
 
 ## Retired Software
 
 These software packages have reached end of life and are no longer being actively maintained. The source will still be made available, and repositories archived.
+
+| Application | Reason                     |
+| ----------- | -------------------------- |
+| [enlighten-chemshell-wrapper](https://github.com/CCPBioSim/enlighten-chemshell-wrapper) | Retired because it has been superseded by [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) |
+| [FESetup](https://github.com/CCPBioSim/fesetup) | Retired because it has been superseded by [BioSimSpace](https://github.com/CCPBioSim/BioSimSpace) |
