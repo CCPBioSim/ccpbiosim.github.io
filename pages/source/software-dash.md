@@ -16,7 +16,9 @@ These packages have repositories on our organisation repository, but the code is
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
-|             |                            |
+| aiida-amber            |                            |
+| aiida-gromacs            |                            |
+| Rex           |                            |
 
 ## Specialised Apps/User/Test Environments
 
