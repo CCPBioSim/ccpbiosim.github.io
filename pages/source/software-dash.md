@@ -4,7 +4,7 @@ This is a dashboard overview that details the status of software projects.
 
 ## Actively Maintained Software
 
-These software packages are currently being actively maintained and fulfill the onboarding requirements of long-term supported software.
+These software packages are currently being actively maintained and fulfill the onboarding requirements of long-term supported software. These software packages will have complete CI and/or CD pipelines, will recieve feature updates and bug fixes with a regular release cycle.
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
@@ -12,7 +12,7 @@ These software packages are currently being actively maintained and fulfill the 
 
 ## Software in Early Development/Being Addopted for Maintenance
 
-These packages have repositories on our organisation repository, but the code is either in early stage development or in the process of being addopted for long-term maintenance.
+These packages have repositories on our organisation repository, but the code is either in early stage development or in the process of being addopted for long-term maintenance. These packages may have some CI but will not be complete and will be in active but early stage development. Releases will be more sporadic and code here might be unstable for production use.
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
@@ -24,7 +24,7 @@ These packages have repositories on our organisation repository, but the code is
 
 ## Specialised Apps/User/Test Environments
 
-These repositories contain builds or code for containerised user production or testing environments for testing other software.
+These repositories contain builds or code for containerised user production or testing environments for testing other software. They are designed to ship complete environments to aid users with using complicated software, or for testing other software that have complex build environments that are unsuitable for GitHub actions.
 
 | Test Environment | Type | Repository and CI Snapshot |
 | ---------------- | ---- | -------------------------- |
