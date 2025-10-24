@@ -16,10 +16,10 @@ These packages have repositories on our organisation repository, but the code is
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
-| [aiida-amber](https://github.com/CCPBioSim/aiida-amber) |                            |
-| [aiida-gromacs](https://github.com/CCPBioSim/aiida-gromacs) |                            |
-| [Rex](https://github.com/CCPBioSim/Rex) |                            |
-| [SIST_code](https://github.com/CCPBioSim/SIST_code) |                            |
+| [aiida-amber](https://github.com/CCPBioSim/aiida-amber) | [![issues](https://img.shields.io/github/issues/ccpbiosim/aiida-amber?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-amber/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/aiida-amber?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-amber/pulls) |
+| [aiida-gromacs](https://github.com/CCPBioSim/aiida-gromacs) | [![issues](https://img.shields.io/github/issues/ccpbiosim/aiida-gromacs?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-gromacs/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/aiida-gromacs?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-gromacs/pulls) |
+| [Rex](https://github.com/CCPBioSim/Rex) | [![issues](https://img.shields.io/github/issues/ccpbiosim/Rex?logo=github&labelColor=grey)](https://github.com/CCPBioSim/Rex/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/Rex?logo=github&labelColor=grey)](https://github.com/CCPBioSim/Rex/pulls) |
+| [SIST_code](https://github.com/CCPBioSim/SIST_code) | [![issues](https://img.shields.io/github/issues/ccpbiosim/SIST_code?logo=github&labelColor=grey)](https://github.com/CCPBioSim/SIST_code/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/SIST_code?logo=github&labelColor=grey)](https://github.com/CCPBioSim/SIST_code/pulls) |
 
 
 ## Specialised Apps/User/Test Environments
@@ -28,9 +28,9 @@ These repositories contain builds or code for containerised user production or t
 
 | Test Environment | Type | Repository and CI Snapshot |
 | ---------------- | ---- | -------------------------- |
-| [aiida-plugin-testbase](https://github.com/CCPBioSim/aiida-plugin-testbase) | Test |                            |
-| [aiida-with-gromacs](https://github.com/CCPBioSim/aiida-with-gromacs) | User |                            |
-| [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) | Apps |                            |
+| [aiida-plugin-testbase](https://github.com/CCPBioSim/aiida-plugin-testbase) | Test | [![issues](https://img.shields.io/github/issues/ccpbiosim/aiida-plugin-testbase?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-plugin-testbase/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/aiida-plugin-testbase?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-plugin-testbase/pulls) |
+| [aiida-with-gromacs](https://github.com/CCPBioSim/aiida-with-gromacs) | User | [![issues](https://img.shields.io/github/issues/ccpbiosim/aiida-with-gromacs?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-with-gromacs/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/aiida-with-gromacs?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-with-gromacs/pulls) |
+| [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) | Apps | [![issues](https://img.shields.io/github/issues/ccpbiosim/chemsh-wrapper4enlighten?logo=github&labelColor=grey)](https://github.com/CCPBioSim/chemsh-wrapper4enlighten/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/chemsh-wrapper4enlighten?logo=github&labelColor=grey)](https://github.com/CCPBioSim/chemsh-wrapper4enlighten/pulls) |
 
 ## Retired Software
 
