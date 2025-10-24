@@ -9,8 +9,8 @@ This is currently a work in progress. Over time we wish to add things like roadm
 maxdepth: 2
 caption: Contents:
 ---
-workshops-dash.md
 software-dash.md
+workshops-dash.md
 ```
 
 ## Indices and tables
