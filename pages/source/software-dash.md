@@ -18,9 +18,9 @@ These packages have repositories on our organisation repository, but the code is
 
 | Application | Repository and CI Snapshot |
 | ----------- | -------------------------- |
+| [mdprep](https://github.com/CCPBioSim/mdprep) | [![issues](https://img.shields.io/github/issues/ccpbiosim/mdprep?logo=github&labelColor=grey)](https://github.com/CCPBioSim/mdprep/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/mdprep?logo=github&labelColor=grey)](https://github.com/CCPBioSim/mdprep/pulls) |
 | [Rex](https://github.com/CCPBioSim/Rex) | [![issues](https://img.shields.io/github/issues/ccpbiosim/Rex?logo=github&labelColor=grey)](https://github.com/CCPBioSim/Rex/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/Rex?logo=github&labelColor=grey)](https://github.com/CCPBioSim/Rex/pulls) |
 | [SIST_code](https://github.com/CCPBioSim/SIST_code) | [![issues](https://img.shields.io/github/issues/ccpbiosim/SIST_code?logo=github&labelColor=grey)](https://github.com/CCPBioSim/SIST_code/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/SIST_code?logo=github&labelColor=grey)](https://github.com/CCPBioSim/SIST_code/pulls) |
-
 
 ## Specialised Apps/User/Test Environments
 
