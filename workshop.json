@@ -44,27 +44,6 @@
     },
     "qmmm-workshop": {
       "latest": "2025-11-03"
-    },
-    "tw2025-protein-analysis-workshop": {
-      "latest": "2025-10-13"
-    },
-    "tw2025-protein-preparation-workshop": {
-      "latest": "2025-10-12"
-    },
-    "tw2025-protein-simulation-workshop": {
-      "latest": "2025-10-10"
-    },
-    "tw2025-openff-workshop": {
-      "latest": "2025-10-14"
-    },
-    "tw2025-coarse-graining-workshop": {
-      "latest": "2025-10-14"
-    },
-    "tw2025-dna-workshop": {
-      "latest": "2025-10-15"
-    },
-    "tw2025-protein-ml-workshop": {
-      "latest": "2025-10-16"
     }
   }
 }
