@@ -47,6 +47,9 @@
     },
     "mm-gbsa-workshop": {
       "latest": "2025-11-10"
+    },
+    "protein-ml-workshop": {
+      "latest": "2025-11-10"
     }
   }
 }
