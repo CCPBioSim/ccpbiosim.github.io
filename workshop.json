@@ -1,7 +1,7 @@
 {
   "containers": {
     "jupyterhub-base": {
-      "latest": "2025-11-10"
+      "latest": "2025-11-17"
     },
     "structure-validation-uglymol": {
       "latest": "2025-11-17"
