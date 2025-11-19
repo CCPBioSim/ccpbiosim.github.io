@@ -59,6 +59,9 @@
     },
     "dna-workshop": {
       "latest": "2025-11-19"
+    },
+    "protein-simulation-workshop": {
+      "latest": "2025-11-19"
     }
   }
 }
