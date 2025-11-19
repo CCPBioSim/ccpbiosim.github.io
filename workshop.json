@@ -56,6 +56,9 @@
     },
     "protein-preparation-workshop": {
       "latest": "2025-11-19"
+    },
+    "dna-workshop": {
+      "latest": "2025-11-19"
     }
   }
 }
