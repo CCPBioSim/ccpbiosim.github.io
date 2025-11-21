@@ -29,6 +29,7 @@ jobs:
             --base 'main' \
             --json title \
             --jq 'length')
+          echo $prs
           if ((prs > 0)); then
             echo "exists=true" >> "$GITHUB_OUTPUT"
           fi
