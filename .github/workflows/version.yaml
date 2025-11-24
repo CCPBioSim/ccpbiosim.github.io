@@ -69,14 +69,7 @@ jobs:
 
       - name: send PR
         if: '!steps.checkpr.outputs.exists'
-        uses: peter-evans/create-pull-request@v7.0.9
-        with:
-          commit-message: Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}
-          branch: version-updates
-          title: "Update to workshop.json"
-          body: |
-            Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}
-          base: main
-          assignees: jimboid
-          signoff: false
-          draft: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --base main --head version-updates --assignee jimboid --title "Update to workshop.json" --body "Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
