@@ -44,8 +44,9 @@ jobs:
             git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
             if [ -z "$(git branch --list version-updates)" ]; then
               git push --set-upstream origin version-updates
+            else
+              git push
             fi
-            git push
           fi
 
       - name: check pr exists
