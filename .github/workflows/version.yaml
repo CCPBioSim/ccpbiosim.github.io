@@ -42,7 +42,9 @@ jobs:
               git checkout version-updates
             fi
             git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
-            if [ -z "$(git branch --list version-updates)" ]; git push --set-upstream origin version-updates
+            if [ -z "$(git branch --list version-updates)" ]; then
+              git push --set-upstream origin version-updates
+            fi
             git push
           fi
 
