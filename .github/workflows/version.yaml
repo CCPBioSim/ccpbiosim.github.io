@@ -41,7 +41,7 @@ jobs:
           if [ -z "$(git status --porcelain)" ]; then
             echo "no changes detected"
           else
-            if [ -z "$(git branch --list version-updates)" ]; then
+            if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
               echo "no branch version-updates, creating"
               git checkout -b version-updates
             else
