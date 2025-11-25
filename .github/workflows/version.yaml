@@ -13,6 +13,10 @@ jobs:
     name: Update workshop version
     runs-on: ubuntu-24.04
     steps:
+
+      - name: Turnstyle
+        uses: softprops/turnstyle@v3.2.1
+
       - name: checkout
         uses: actions/checkout@v6.0.0
         with:
