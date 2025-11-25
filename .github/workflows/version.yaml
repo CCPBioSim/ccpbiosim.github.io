@@ -20,7 +20,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v6.0.0
         with:
-         ref: main
+         #ref: main
          fetch-depth: 0
 
       - name: set user profile
@@ -42,15 +42,19 @@ jobs:
             echo "no changes detected"
           else
             if [ -z "$(git branch --list version-updates)" ]; then
+              echo "no branch version-updates, creating"
               git checkout -b version-updates
             else
+              echo "branch exists, checking it out"
               git checkout version-updates
             fi
             git add .
             git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
             if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
+              echo "branch does not have upstream set, setting"
               git push --set-upstream origin version-updates
             else
+              echo "pushing changes"
               git push
             fi
           fi
