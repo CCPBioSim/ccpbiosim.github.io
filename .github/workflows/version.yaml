@@ -73,7 +73,7 @@ jobs:
           fi
 
       - name: send PR
-        if: ('steps.update.outputs.changes' && '!steps.checkpr.outputs.exists')
+        if: '!steps.checkpr.outputs.exists'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
