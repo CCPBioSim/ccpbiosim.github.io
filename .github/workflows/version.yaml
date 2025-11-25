@@ -57,7 +57,6 @@ jobs:
           fi  
 
       - name: check pr exists
-        if: '!steps.updates.outputs.changes'
         id: checkpr
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
