@@ -28,35 +28,25 @@ jobs:
           git config --global user.name 'jimboid'
           git config --global user.email 'jimboid@users.noreply.github.com'
 
-      - name: update json
-        run: |  
-          jq --arg a "${{ github.event.client_payload.tag }}" '.containers."${{ github.event.client_payload.repo }}".latest = ($a)' workshop.json | jq "." | cat > workshop2.json; mv workshop2.json workshop.json
-
-      - name: log the change
+      - name: change, log and push changes
         run: |
-          cat workshop.json
-
-      - name: push changes
-        run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "no changes detected"
+          if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
+            echo "no branch version-updates, creating"
+            git checkout -b version-updates
           else
-            if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
-              echo "no branch version-updates, creating"
-              git checkout -b version-updates
-            else
-              echo "branch exists, checking it out"
-              git checkout version-updates
-            fi
-            git add .
-            git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
-            if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
-              echo "branch does not have upstream set, setting"
-              git push --set-upstream origin version-updates
-            else
-              echo "pushing changes"
-              git push
-            fi
+            echo "branch exists, checking it out"
+            git checkout version-updates
+          fi
+          jq --arg a "${{ github.event.client_payload.tag }}" '.containers."${{ github.event.client_payload.repo }}".latest = ($a)' workshop.json | jq "." | cat > workshop2.json; mv workshop2.json workshop.json
+          cat workshop.json
+          git add .
+          git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
+          if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
+            echo "branch does not have upstream set, setting"
+            git push --set-upstream origin version-updates
+          else
+            echo "pushing changes"
+            git push
           fi
 
       - name: check pr exists
