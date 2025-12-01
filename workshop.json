@@ -1,70 +1,70 @@
 {
   "containers": {
     "jupyterhub-base": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "structure-validation-uglymol": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "structure-validation-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "basic-statistics-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "aiida-lysozyme-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "basic-analysis-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "equilibration-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "ubiquitin-analysis-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "clustering-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "aiida-gpcr-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "pca-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "python-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "pdb2pqr-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "docking-workflow": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "qmmm-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "mm-gbsa-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "protein-ml-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "protein-analysis-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "protein-preparation-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "dna-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "protein-simulation-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     },
     "coarse-graining-workshop": {
-      "latest": "2025-11-25"
+      "latest": "2025-12-01"
     }
   }
 }
