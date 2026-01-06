@@ -458,7 +458,7 @@ Once enabled, add a coverage badge to the README.
 
 ---
 
-##### Dependency Management - Renovate (via [mend.io](Mend.io))
+##### Dependency Management - Renovate (via [mend.io](https://www.mend.io/))
 
 Dependency updates are managed automatically using Renovate, administered
 through Mend.io at the CCPBioSim organisation level.
