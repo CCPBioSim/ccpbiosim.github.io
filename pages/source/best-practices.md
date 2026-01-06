@@ -106,7 +106,7 @@ Once the repository has been created from the template, a small amount of initia
 
     Install the package along with development dependencies:
 
-        pip install -e .[dev]
+        pip install -e .[pre-commit,docs,testing]
 
 6. **Run the test suite**
 
@@ -319,7 +319,7 @@ This setup allows for **automatic API documentation generation** with `sphinx-au
 
 2. Install the package with development dependencies:
 
-        pip install -e .[dev]
+       pip install -e .[pre-commit,docs,testing]
 
 ---
 
@@ -393,7 +393,7 @@ All repositories use GitHub Actions for continuous integration.
 
 CI workflows assume the project can be installed using:
 
-    pip install -e .[dev]
+   pip install -e .[pre-commit,docs,testing]
 
 No manual setup is required to enable GitHub Actions.
 
