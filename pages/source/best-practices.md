@@ -378,13 +378,13 @@ organisation or repository level.
 
 All repositories use GitHub Actions for continuous integration.
 
-**Key characteristics**
+###### Key characteristics
 
 - CI is enabled by default
 - Workflows live in `.github/workflows/`
 - CI runs automatically on pushes and pull requests
 
-**Standard CI checks**
+###### Standard CI checks
 
 - Unit tests across supported Python versions and platforms
 - Pre-commit linting and formatting
@@ -393,7 +393,7 @@ All repositories use GitHub Actions for continuous integration.
 
 CI workflows assume the project can be installed using:
 
-   pip install -e .[pre-commit,docs,testing]
+    pip install -e .[pre-commit,docs,testing]
 
 No manual setup is required to enable GitHub Actions.
 
