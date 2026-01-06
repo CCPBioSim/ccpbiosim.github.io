@@ -179,7 +179,7 @@ The repository is organized as follows:
 
 ---
 
-#### Source Code (`src/`)
+##### Source Code (`src/`)
 
 All Python code lives under `src/`, using the **package name** you specify:
 
@@ -204,7 +204,7 @@ This structure ensures that the package is **importable** and ready for expansio
 
 ---
 
-#### Tests (`tests/`)
+##### Tests (`tests/`)
 
 Unit tests live under the `tests/` directory, mirroring the package structure:
 
@@ -249,7 +249,7 @@ This layout makes it easy to **add new modules and tests** while keeping the cod
 
 ---
 
-#### Documentation (`docs/`)
+##### Documentation (`docs/`)
 
 The documentation source uses **Sphinx**:
 
