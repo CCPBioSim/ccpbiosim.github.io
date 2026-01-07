@@ -11,6 +11,7 @@ caption: Contents:
 ---
 software-dash.md
 workshops-dash.md
+new-software.md
 ```
 
 ## Indices and tables
