@@ -15,7 +15,7 @@ jobs:
     steps:
 
       - name: Turnstyle
-        uses: softprops/turnstyle@v3.2.2
+        uses: softprops/turnstyle@v3.2.3
 
       - name: checkout
         uses: actions/checkout@v6.0.1
