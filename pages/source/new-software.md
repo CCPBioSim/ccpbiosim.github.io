@@ -67,16 +67,15 @@ Once the repository has been created from the template, a small amount of initia
 
 2. **Rename the Python package**
 
-    The directory under `src/` defines the import name of your Python package. This name will be used when importing the package in code and when the project is installed.
+    The directory under `example_package/` defines the import name of your Python package. This name will be used when importing the package in code and when the project is installed.
 
-    - Locate the package directory under `src/`
+    - Locate the package directory under `example_package/`
     - Rename it to match your chosen package name
     - Ensure the name is a valid Python identifier (lowercase, underscores allowed)
 
     Example:
 
-        src/
-        your_package_name/
+        example_package/
 
 3. **Update project metadata**
 
@@ -155,7 +154,7 @@ This template follows a standard Python project layout designed to support devel
 The repository is organized as follows:
 
     docs/
-    src/example_package_YOUR_USERNAME_HERE/
+    example_package/
     tests/
     pyproject.toml
     README.md
@@ -166,7 +165,7 @@ The repository is organized as follows:
     .gitignore
 
 - `docs/` - Sphinx documentation source
-- `src/` - Python source code
+- `example_package/` - Python source code
 - `tests/` - Unit and integration tests
 - `pyproject.toml` - Project metadata and dependencies
 - `README.md` / `LICENSE` - Standard project documentation
@@ -179,22 +178,22 @@ The repository is organized as follows:
 
 ---
 
-##### Source Code (`src/`)
+##### Source Code (`example_package/`)
 
-All Python code lives under `src/`, using the **package name** you specify:
+All Python code lives under `example_package/`, using the **package name** you specify:
 
-    src/example_package_YOUR_USERNAME_HERE/
+    example_package/
         __init__.py
         example.py
 
 - `__init__.py` - Makes the directory a Python package
 - `example.py` - Minimal placeholder function included for coverage and testing
 
-> **Tip:** Rename the `example_package_YOUR_USERNAME_HERE` folder to match your project’s package name. Make sure it’s a valid Python identifier (lowercase letters, underscores allowed).
+> **Tip:** Rename the `example_project` folder to match your project’s package name. Make sure it’s a valid Python identifier (lowercase letters, underscores allowed).
 
 Example placeholder function:
 
-    # src/example_package_YOUR_USERNAME_HERE/example.py
+    # example_package/example.py
 
     def placeholder():
         """Minimal function to allow coverage and serve as a template."""
@@ -208,7 +207,7 @@ This structure ensures that the package is **importable** and ready for expansio
 
 Unit tests live under the `tests/` directory, mirroring the package structure:
 
-    tests/test_example_package_YOUR_USERNAME_HERE/
+    tests/test_example_project/
         __init__.py
         conftest.py
         test_example.py
@@ -220,13 +219,13 @@ Unit tests live under the `tests/` directory, mirroring the package structure:
 
 Example test:
 
-    # tests/test_example_package_YOUR_USERNAME_HERE/test_example.py
+    # tests/test_example_project/test_example.py
 
-    from example_package_YOUR_USERNAME_HERE.example import placeholder
+    from example_project.example import placeholder
 
     class TestExamplePackage:
         """
-        Class-based placeholder tests for example_package_YOUR_USERNAME_HERE.
+        Class-based placeholder tests for example_project.
 
         - Demonstrates using a test class with pytest.
         - Can easily be extended with more methods for real tests.
@@ -278,7 +277,7 @@ This setup allows for **automatic API documentation generation** with `sphinx-au
 
 #### Project Name and Package Name
 
-- Rename the folder under `src/` to match your package name.
+- Rename the folder under `example_package/` to match your package name.
 - Must be a valid Python identifier: lowercase letters and underscores.
 - This determines the import name of your package.
 
@@ -576,12 +575,12 @@ requirements.
 
 ##### Required Repository Structure
 
-    src/<package_name>/
+    example_package/
     tests/
     docs/
     .github/
 
-- The folder under `src/` defines the import path
+- The folder under `example_package/` defines the import path
 - It must be a valid Python identifier
 - It must match the package name used throughout the project
 
@@ -668,7 +667,7 @@ Authentication for these services is handled at the CCPBioSim organisation level
 
 ### Common Pitfalls
 
-- Forgetting to rename the `src/` package directory
+- Forgetting to rename the `example_package/` package directory
 - Working outside an active virtual environment
 - Committing secrets or generated files
 - Ignoring CI or pre-commit failures
