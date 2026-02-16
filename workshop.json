@@ -1,73 +1,73 @@
 {
   "containers": {
     "jupyterhub-base": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "structure-validation-uglymol": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "structure-validation-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "basic-statistics-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "aiida-lysozyme-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "basic-analysis-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "equilibration-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "ubiquitin-analysis-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "clustering-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "aiida-gpcr-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "pca-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "python-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "pdb2pqr-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "docking-workflow": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "qmmm-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "mm-gbsa-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "protein-ml-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "protein-analysis-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "protein-preparation-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "dna-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "protein-simulation-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "coarse-graining-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     },
     "openff-workshop": {
-      "latest": "2026-02-09"
+      "latest": "2026-02-16"
     }
   }
 }
