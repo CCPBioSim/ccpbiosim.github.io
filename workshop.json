@@ -134,7 +134,7 @@
       "longdesc": ""
     },
     "dna-workshop": {
-      "latest": "2026-02-23",
+      "latest": "2026-03-02",
       "name": "Running DNA Simulations",
       "category": "simulation",
       "shortdesc": "This course introduces tools for running simulations on DNA systems.",
