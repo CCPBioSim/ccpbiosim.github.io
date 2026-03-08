@@ -38,7 +38,7 @@ jobs:
             echo "branch exists, checking it out"
             git checkout version-updates
           fi
-          jq --arg a "${{ github.event.client_payload.tag }}" '.containers."${{ github.event.client_payload.repo }}".latest = ($a)' workshop.json | jq "." | cat > workshop2.json; mv workshop2.json workshop.json
+          jq --arg a "${{ github.event.client_payload.tag }}" '.containers."${{ github.event.client_payload.repo }}".latest = ($a)' assets.json | jq "." | cat > assets2.json; mv assets2.json assets.json
           cat workshop.json
           if [ -z "$(git status --porcelain)" ]; then
             echo "no changes detected"
