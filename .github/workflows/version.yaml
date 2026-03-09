@@ -39,7 +39,7 @@ jobs:
             git checkout version-updates
           fi
           jq --arg a "${{ github.event.client_payload.tag }}" '.containers."${{ github.event.client_payload.repo }}".latest = ($a)' assets.json | jq "." | cat > assets2.json; mv assets2.json assets.json
-          cat workshop.json
+          cat assets.json
           if [ -z "$(git status --porcelain)" ]; then
             echo "no changes detected"
             echo "changes=false" >> "$GITHUB_OUTPUT"
@@ -77,4 +77,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create --base main --head version-updates --assignee jimboid --title "Update to workshop.json" --body "Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
+          gh pr create --base main --head version-updates --assignee jimboid --title "Update to assets.json" --body "Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
