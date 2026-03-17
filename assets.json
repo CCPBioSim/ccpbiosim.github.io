@@ -161,5 +161,31 @@
       "shortdesc": "This workshop introduces the openforcefield tooling.",
       "longdesc": ""
     }
+  },
+  "software": {
+    "codeentropy": {
+      "name": "CodeEntropy",
+      "desc": "",
+      "github": "https://github.com/CCPBioSim/CodeEntropy",
+      "docs": "https://codeentropy.readthedocs.io",
+      "pypi": true,
+      "conda": true
+    },
+    "aiida-amber": {
+      "name": "aiida-amber",
+      "desc": "",
+      "github": "https://github.com/CCPBioSim/aiida-amber",
+      "docs": "https://aiida-amber.readthedocs.io",
+      "pypi": true,
+      "conda": true
+    },
+    "aiida-gromacs": {
+      "name": "aiida-gromacs",
+      "desc": "",
+      "github": "https://github.com/CCPBioSim/aiida-gromacs",
+      "docs": "https://aiida-amber.readthedocs.io",
+      "pypi": true,
+      "conda": true
+    }
   }
 }
