@@ -166,6 +166,8 @@
     "codeentropy": {
       "name": "CodeEntropy",
       "desc": "",
+      "category": "scientific",
+      "image": "biosim-codeentropy_logo_grey.svg",
       "github": "https://github.com/CCPBioSim/CodeEntropy",
       "docs": "https://codeentropy.readthedocs.io",
       "pypi": true,
@@ -174,6 +176,8 @@
     "aiida-amber": {
       "name": "aiida-amber",
       "desc": "",
+      "category": "data-tools",
+      "image": "biosim-aiida-amber-logo.svg",
       "github": "https://github.com/CCPBioSim/aiida-amber",
       "docs": "https://aiida-amber.readthedocs.io",
       "pypi": true,
@@ -182,6 +186,8 @@
     "aiida-gromacs": {
       "name": "aiida-gromacs",
       "desc": "",
+      "category": "data-tools",
+      "image": "biosim-aiida-gromacs-logo.svg",
       "github": "https://github.com/CCPBioSim/aiida-gromacs",
       "docs": "https://aiida-amber.readthedocs.io",
       "pypi": true,
