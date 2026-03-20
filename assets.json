@@ -180,7 +180,7 @@
         "Harry Swift": "https://orcid.org/0009-0007-3323-753X"
       },
       "category": "scientific",
-      "image": "biosim-codeentropy_logo_grey.svg",
+      "image": "codeentropy_logo_grey.svg",
       "github": "https://github.com/CCPBioSim/CodeEntropy",
       "docs": "https://codeentropy.readthedocs.io",
       "pypi": true,
@@ -196,7 +196,7 @@
         "Harry Swift": "https://orcid.org/0009-0007-3323-753X"
       },
       "category": "data-tools",
-      "image": "biosim-aiida-amber-logo.svg",
+      "image": "aiida-amber-logo.svg",
       "github": "https://github.com/CCPBioSim/aiida-amber",
       "docs": "https://aiida-amber.readthedocs.io",
       "pypi": true,
@@ -212,7 +212,7 @@
         "Harry Swift": "https://orcid.org/0009-0007-3323-753X"
       },
       "category": "data-tools",
-      "image": "biosim-aiida-gromacs-logo.svg",
+      "image": "aiida-gromacs-logo.svg",
       "github": "https://github.com/CCPBioSim/aiida-gromacs",
       "docs": "https://aiida-amber.readthedocs.io",
       "pypi": true,
