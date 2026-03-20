@@ -167,7 +167,7 @@
       "name": "CodeEntropy",
       "shortdesc": "This code is a complete and generally applicable set of tools for computing entropy of macromolecular systems from the forces sampled in a MD simulation.",
       "longdesc": "CodeEntropy is a Python package for computing the configurational entropy of macromolecular systems using forces sampled from molecular dynamics (MD) simulations. It implements the multiscale cell correlation method to provide accurate and efficient entropy estimates, supporting a wide range of applications in molecular simulation and statistical mechanics.",
-      "authors" {
+      "authors": {
         "Arghya Chakravorty": "https://orcid.org/0000-0002-4467-1135",
         "Donald Chung-HK": "",
         "Sarah Fegan": "https://orcid.org/0009-0007-1030-228X",
@@ -190,7 +190,7 @@
       "name": "aiida-amber",
       "shortdesc": "The AMBER plugin for AiiDA aims to enable the capture and sharing of the full provenance of data when parameterising and running molecular dynamics simulations.",
       "longdesc": "aiida-amber is a plugin that integrates the Amber molecular dynamics software with AiiDA, an open-source framework for automated computational science workflows. Its primary goal is to enable the capture and sharing of the full provenance of data when parameterising and running molecular dynamics simulations. It is being developed as part of the Physical Sciences Data Infrastructure (PSDI) programme to improve data practices within the Physical Sciences in the UK. The plugin is currently a work in progress, with more complete functionality planned for future releases. Its design follows a minimal-disruption philosophy — researchers can gain access to powerful FAIR data practices by simply activating an AiiDA conda environment and making slight modifications to their existing command lines, without needing to make wholesale changes to their workflows.",
-      "authors" {
+      "authors": {
         "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
         "James Gebbie-Rayet": "https://orcid.org/0000-0001-8271-3431",
         "Harry Swift": "https://orcid.org/0009-0007-3323-753X"
@@ -206,7 +206,7 @@
       "name": "aiida-gromacs",
       "shortdesc": "The GROMACS plugin for AiiDA aims to enable the capture and sharing of the full provenance of data when parameterising and running molecular dynamics simulations.",
       "longdesc": "aiida-gromacs is a plugin that integrates the GROMACS molecular dynamics software with AiiDA, an open-source framework for automated computational science workflows. Its primary goal is to enable the capture and sharing of the full provenance of data when parameterising and running molecular dynamics simulations. The plugin is developed as part of the Physical Sciences Data Infrastructure (PSDI) programme, which aims to improve data practices within the Physical Sciences in the UK. A key design principle is minimal disruption to existing workflows — researchers can gain access to powerful FAIR (Findable, Accessible, Interoperable, Reusable) data practices simply by activating an AiiDA conda environment and making only slight modifications to their existing command lines, without requiring wholesale changes to how they work.",
-      "authors" {
+      "authors": {
         "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
         "James Gebbie-Rayet": "https://orcid.org/0000-0001-8271-3431",
         "Harry Swift": "https://orcid.org/0009-0007-3323-753X"
