@@ -214,7 +214,7 @@
       "category": "data-tools",
       "image": "aiida-gromacs-logo.svg",
       "github": "https://github.com/CCPBioSim/aiida-gromacs",
-      "docs": "https://aiida-amber.readthedocs.io",
+      "docs": "https://aiida-gromacs.readthedocs.io",
       "pypi": true,
       "conda": true
     }
