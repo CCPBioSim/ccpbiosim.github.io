@@ -141,7 +141,7 @@
       "longdesc": ""
     },
     "protein-simulation-workshop": {
-      "latest": "2026-03-16",
+      "latest": "2026-03-23",
       "name": "Running MD Simulations",
       "category": "simulation",
       "shortdesc": "This workshop demonstrates two approaches to running MD simulations on a simple protein system.",
