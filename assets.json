@@ -8,7 +8,7 @@
       "longdesc": ""
     },
     "structure-validation-uglymol": {
-      "latest": "2026-04-20",
+      "latest": "2026-04-27",
       "name": "Uglymol Image",
       "category": "infrastructure",
       "shortdesc": "Uglymol container for hosted deployment as part of the structure validation workshop.",
