@@ -57,7 +57,7 @@
       "longdesc": ""
     },
     "clustering-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "An Introduction to Clustering",
       "category": "analysis",
       "shortdesc": "This course illustrates the application of a variety of clustering methods to an MD trajectory, comparing their performance.",
