@@ -1,98 +1,98 @@
 {
   "containers": {
     "jupyterhub-base": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "CCPBioSim Base Image",
       "category": "infrastructure",
       "shortdesc": "CCPBioSim JupyterHub base container for use in other training workshops.",
       "longdesc": ""
     },
     "structure-validation-uglymol": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Uglymol Image",
       "category": "infrastructure",
       "shortdesc": "Uglymol container for hosted deployment as part of the structure validation workshop.",
       "longdesc": ""
     },
     "structure-validation-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "An Introduction to Structure Validation",
       "category": "setup",
       "shortdesc": "This course will introduce methods to deduce that starting structures for preparing simulations represent high quality starting points.",
       "longdesc": ""
     },
     "basic-statistics-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Introducing Basic Statistics",
       "category": "analysis",
       "shortdesc": "This course illustrates how basic statistical concepts can be applied to the analysis of biomolecular simlation data",
       "longdesc": ""
     },
     "aiida-lysozyme-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "aiida-gromacs - Lysozyme MD simulation tutorial",
       "category": "setup",
       "shortdesc": "Data provenance tools demonstrated with Justin Lemkul's lysozyme in water simulation tutorial.",
       "longdesc": ""
     },
     "basic-analysis-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Introducing Basic Analysis",
       "category": "analysis",
       "shortdesc": "In this course we will explore some of the issues in simulation preparation and analysis that can trip up the unwary, and how to avoid them.",
       "longdesc": ""
     },
     "equilibration-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "An Introduction to Equilibration",
       "category": "setup",
       "shortdesc": "This course looks at one of the most common methods for assessing equilibration: the calculation of RMSDs. It may be a common approach, but is it a good one? Maybe not.",
       "longdesc": ""
     },
     "ubiquitin-analysis-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Introduction to Analysis of Ubiquitin",
       "category": "analysis",
       "shortdesc": "This course illustrates the application of a number of Python-based tools to the analysis of the results from a short (1 nanosecond) simulation of ubiquitin, investigating the question, how similar is the MD trajectory to the crystal and NMR structures?",
       "longdesc": ""
     },
     "clustering-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "An Introduction to Clustering",
       "category": "analysis",
       "shortdesc": "This course illustrates the application of a variety of clustering methods to an MD trajectory, comparing their performance.",
       "longdesc": ""
     },
     "aiida-gpcr-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "aiida-gromacs - GPCR MD simulation tutorial",
       "category": "advanced",
       "shortdesc": "An advanced demonstration showing advanced GPCR workflow with full data provenance collection.",
       "longdesc": ""
     },
     "pca-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "An Introduction to Principle Component Analysis",
       "category": "analysis",
       "shortdesc": "The aim of this course is to illustrate methods we can use to assess convergence and sampling in MD trajectories.",
       "longdesc": ""
     },
     "python-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "An Introduction to Python Programming",
       "category": "coding",
       "shortdesc": "This course will introduce more intermediate features of Python that are useful for biomolecular modellers.",
       "longdesc": ""
     },
     "pdb2pqr-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "An Introduction to PDB2PQR",
       "category": "setup",
       "shortdesc": "This short course illustrates the application of pdb2pqr to the analysis of the tautomeric and ionization states of residues in the structure of the cysteine protease cruzein (PDB code 2oz2) - the results may not be what you would have expected!",
       "longdesc": ""
     },
     "docking-workflow": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Introducing Docking Workflows",
       "category": "advanced",
       "shortdesc": "This course introduces docking tools and workflows.",
@@ -106,21 +106,21 @@
       "longdesc": ""
     },
     "mm-gbsa-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Analysing with MM-GBSA",
       "category": "analysis",
       "shortdesc": "This course walks through the process of perfprming a basic MM-GBSA analysis of a molecular dynamics simulation of a protein-ligand complex to estimate the ligand binding free energy.",
       "longdesc": ""
     },
     "protein-ml-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Protein Analysis with Machine Learning",
       "category": "analysis",
       "shortdesc": "This course introduces the application of Machine Learning methods (specifically, PCA and clustering) to the analysis of protein simulation data.",
       "longdesc": ""
     },
     "protein-analysis-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Introduction to the Analysis of Proteins",
       "category": "analysis",
       "shortdesc": "This course introduces the application of MDTraj to the analysis of protein simulation data.",
@@ -148,7 +148,7 @@
       "longdesc": ""
     },
     "coarse-graining-workshop": {
-      "latest": "2026-04-27",
+      "latest": "2026-05-04",
       "name": "Introducing Coarse-Graining",
       "category": "advanced",
       "shortdesc": "This workshop introduces tools for setup and running coarse-grain simulations.",
