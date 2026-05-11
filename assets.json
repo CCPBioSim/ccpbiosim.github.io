@@ -43,7 +43,7 @@
       "longdesc": ""
     },
     "equilibration-workshop": {
-      "latest": "2026-05-04",
+      "latest": "2026-05-11",
       "name": "An Introduction to Equilibration",
       "category": "setup",
       "shortdesc": "This course looks at one of the most common methods for assessing equilibration: the calculation of RMSDs. It may be a common approach, but is it a good one? Maybe not.",
