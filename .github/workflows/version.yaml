@@ -18,7 +18,7 @@ jobs:
         uses: softprops/turnstyle@v3.3.1
 
       - name: checkout
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
          #ref: main
          fetch-depth: 0
