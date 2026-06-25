@@ -68,8 +68,8 @@ pygments_style = "default"
 html_theme = "furo"
 html_title = "Developers Resources"
 html_theme_options = {
-"light_logo": "ccpbiosim-dark-sq.png",  # Your light mode logo file
-"dark_logo": "ccpbiosim-light-sq.png",   # Your dark mode logo file
+"light_logo": "ccpbiosim-logo-black-bottom-text.png",  # Your light mode logo file
+"dark_logo": "ccpbiosim-logo-white-bottom-text.png",   # Your dark mode logo file
 }
 
 html_static_path = ["_static"]
