@@ -180,7 +180,7 @@
         "Harry Swift": "https://orcid.org/0009-0007-3323-753X"
       },
       "category": "scientific",
-      "image": "codeentropy_logo_grey.svg",
+      "image": "codeentropy-logo-chip-dark.svg",
       "github": "https://github.com/CCPBioSim/CodeEntropy",
       "docs": "https://codeentropy.readthedocs.io",
       "pypi": true,
