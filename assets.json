@@ -71,7 +71,7 @@
       "longdesc": ""
     },
     "pca-workshop": {
-      "latest": "2026-06-22",
+      "latest": "2026-06-29",
       "name": "An Introduction to Principle Component Analysis",
       "category": "analysis",
       "shortdesc": "The aim of this course is to illustrate methods we can use to assess convergence and sampling in MD trajectories.",
