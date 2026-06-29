@@ -120,7 +120,7 @@
       "longdesc": ""
     },
     "protein-analysis-workshop": {
-      "latest": "2026-06-22",
+      "latest": "2026-06-29",
       "name": "Introduction to the Analysis of Proteins",
       "category": "analysis",
       "shortdesc": "This course introduces the application of MDTraj to the analysis of protein simulation data.",
