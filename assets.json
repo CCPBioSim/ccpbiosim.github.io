@@ -64,7 +64,7 @@
       "longdesc": ""
     },
     "aiida-gpcr-workshop": {
-      "latest": "2026-06-29",
+      "latest": "2026-07-01",
       "name": "aiida-gromacs - GPCR MD simulation tutorial",
       "category": "advanced",
       "shortdesc": "An advanced demonstration showing advanced GPCR workflow with full data provenance collection.",
