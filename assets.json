@@ -8,14 +8,14 @@
       "longdesc": ""
     },
     "structure-validation-uglymol": {
-      "latest": "2026-06-29",
+      "latest": "2026-06-30",
       "name": "Uglymol Image",
       "category": "infrastructure",
       "shortdesc": "Uglymol container for hosted deployment as part of the structure validation workshop.",
       "longdesc": ""
     },
     "structure-validation-workshop": {
-      "latest": "2026-06-29",
+      "latest": "2026-06-30",
       "name": "An Introduction to Structure Validation",
       "category": "setup",
       "shortdesc": "This course will introduce methods to deduce that starting structures for preparing simulations represent high quality starting points.",
