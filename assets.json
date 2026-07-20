@@ -113,7 +113,7 @@
       "longdesc": ""
     },
     "protein-ml-workshop": {
-      "latest": "2026-07-17",
+      "latest": "2026-07-20",
       "name": "Protein Analysis with Machine Learning",
       "category": "analysis",
       "shortdesc": "This course introduces the application of Machine Learning methods (specifically, PCA and clustering) to the analysis of protein simulation data.",
