@@ -1,7 +1,7 @@
 {
   "containers": {
     "jupyterhub-base": {
-      "latest": "2026-07-20",
+      "latest": "2026-07-27",
       "name": "CCPBioSim Base Image",
       "category": "infrastructure",
       "shortdesc": "CCPBioSim JupyterHub base container for use in other training workshops.",
