@@ -50,7 +50,7 @@
       "longdesc": ""
     },
     "ubiquitin-analysis-workshop": {
-      "latest": "2026-07-27",
+      "latest": "2026-07-29",
       "name": "Introduction to Analysis of Ubiquitin",
       "category": "analysis",
       "shortdesc": "This course illustrates the application of a number of Python-based tools to the analysis of the results from a short (1 nanosecond) simulation of ubiquitin, investigating the question, how similar is the MD trajectory to the crystal and NMR structures?",
