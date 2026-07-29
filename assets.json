@@ -127,7 +127,7 @@
       "longdesc": ""
     },
     "protein-preparation-workshop": {
-      "latest": "2026-03-23",
+      "latest": "2026-07-29",
       "name": "Preparing Proteins for Simulation",
       "category": "setup",
       "shortdesc": "This course walks through the process of preparing a simple protein system for molecular dynamics simulation using Ambertools.",
