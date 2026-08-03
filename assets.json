@@ -85,7 +85,7 @@
       "longdesc": ""
     },
     "pdb2pqr-workshop": {
-      "latest": "2026-07-29",
+      "latest": "2026-08-03",
       "name": "An Introduction to PDB2PQR",
       "category": "setup",
       "shortdesc": "This short course illustrates the application of pdb2pqr to the analysis of the tautomeric and ionization states of residues in the structure of the cysteine protease cruzein (PDB code 2oz2) - the results may not be what you would have expected!",
