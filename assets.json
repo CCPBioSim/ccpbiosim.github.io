@@ -78,7 +78,7 @@
       "longdesc": ""
     },
     "python-workshop": {
-      "latest": "2026-07-29",
+      "latest": "2026-08-03",
       "name": "An Introduction to Python Programming",
       "category": "coding",
       "shortdesc": "This course will introduce more intermediate features of Python that are useful for biomolecular modellers.",
