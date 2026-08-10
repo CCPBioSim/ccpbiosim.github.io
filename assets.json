@@ -29,7 +29,7 @@
       "longdesc": ""
     },
     "aiida-lysozyme-workshop": {
-      "latest": "2026-08-03",
+      "latest": "2026-08-10",
       "name": "aiida-gromacs - Lysozyme MD simulation tutorial",
       "category": "setup",
       "shortdesc": "Data provenance tools demonstrated with Justin Lemkul's lysozyme in water simulation tutorial.",
