@@ -15,10 +15,10 @@ jobs:
     steps:
 
       - name: Turnstyle
-        uses: softprops/turnstyle@v3.3.2
+        uses: softprops/turnstyle@afaccda0f3c0136fb7cb4a734b9b96be03599948 # v3.3.2
 
       - name: checkout
-        uses: actions/checkout@v7.0.1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
          #ref: main
          fetch-depth: 0
