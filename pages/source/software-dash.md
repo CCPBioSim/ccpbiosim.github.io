@@ -28,7 +28,6 @@ These repositories contain builds or code for containerised user production or t
 
 | Test Environment | Type | Repository and CI Snapshot |
 | ---------------- | ---- | -------------------------- |
-| [aiida-with-gromacs](https://github.com/CCPBioSim/aiida-with-gromacs) | User | [![issues](https://img.shields.io/github/issues/ccpbiosim/aiida-with-gromacs?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-with-gromacs/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/aiida-with-gromacs?logo=github&labelColor=grey)](https://github.com/CCPBioSim/aiida-with-gromacs/pulls) |
 | [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) | Apps | [![issues](https://img.shields.io/github/issues/ccpbiosim/chemsh-wrapper4enlighten-plugin?logo=github&labelColor=grey)](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin/issues) [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/chemsh-wrapper4enlighten-plugin?logo=github&labelColor=grey)](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin/pulls) |
 
 ## Retired Software
@@ -40,3 +39,4 @@ These software packages have reached end of life and are no longer being activel
 | [enlighten-chemshell-wrapper](https://github.com/CCPBioSim/enlighten-chemshell-wrapper) | Retired because it has been superseded by [chemsh-wrapper4enlighten](https://github.com/CCPBioSim/chemsh-wrapper4enlighten-plugin) |
 | [FESetup](https://github.com/CCPBioSim/fesetup) | Retired because it has been superseded by [BioSimSpace](https://github.com/CCPBioSim/BioSimSpace) |
 | [aiida-plugin-testenv](https://github.com/CCPBioSim/aiida-plugin-testenv) | Retired because the containers are no longer required, aiida fixed an upstream bug in testing that caused intermittent failures. Testing now moved to conda native in actions, and repo archived. |
+| [aiida-with-gromacs](https://github.com/CCPBioSim/aiida-with-gromacs)  | Retired because using installing, setting up aiida, aiida-gromacs and gromacs is now much simpler than it was when we started making these tools. |
