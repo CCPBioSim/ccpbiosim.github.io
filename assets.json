@@ -106,14 +106,14 @@
       "longdesc": ""
     },
     "mm-gbsa-workshop": {
-      "latest": "2026-09-22",
+      "latest": "2026-09-23",
       "name": "Analysing with MM-GBSA",
       "category": "analysis",
       "shortdesc": "This course walks through the process of perfprming a basic MM-GBSA analysis of a molecular dynamics simulation of a protein-ligand complex to estimate the ligand binding free energy.",
       "longdesc": ""
     },
     "protein-ml-workshop": {
-      "latest": "2026-09-22",
+      "latest": "2026-09-23",
       "name": "Protein Analysis with Machine Learning",
       "category": "analysis",
       "shortdesc": "This course introduces the application of Machine Learning methods (specifically, PCA and clustering) to the analysis of protein simulation data.",
@@ -155,7 +155,7 @@
       "longdesc": ""
     },
     "openff-workshop": {
-      "latest": "2026-09-22",
+      "latest": "2026-09-23",
       "name": "Introducing OpenForceField Tools",
       "category": "advanced",
       "shortdesc": "This workshop introduces the openforcefield tooling.",
