@@ -1,4 +1,4 @@
-name: version handler
+name: workshop handler
 
 on:
   repository_dispatch:
