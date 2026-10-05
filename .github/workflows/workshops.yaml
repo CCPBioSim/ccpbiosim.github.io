@@ -1,0 +1,87 @@
+name: workshop handler
+
+on:
+  repository_dispatch:
+    types: [workshops]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-version:
+    name: Update workshop version
+    runs-on: ubuntu-26.04
+    steps:
+
+      - name: Turnstyle
+        uses: softprops/turnstyle@3805450be63b8c80577dc253e8c17e9132036df4 # v3.3.3
+
+      - name: checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+         #ref: main
+         fetch-depth: 0
+
+      - name: set user profile
+        run: |
+          git config --global user.name 'jimboid'
+          git config --global user.email 'jimboid@users.noreply.github.com'
+
+      - name: change, log and push changes
+        id: update
+        env:
+          REPO: ${{ github.event.client_payload.repo }}
+          TAG: ${{ github.event.client_payload.tag }}
+          META: ${{ toJSON(github.event.client_payload.meta) }}
+        run: |
+          if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
+            echo "no branch version-updates, creating"
+            git checkout -b version-updates
+          else
+            echo "branch exists, checking it out"
+            git checkout version-updates
+          fi
+
+          jq --arg repo "$REPO" --arg tag "$TAG" --argjson meta "$META" \
+            '.workshops[$repo] = ((.workshops[$repo] // {}) + {latest: $tag} + ($meta | del(.latest)))' \
+            assets.json > assets2.json && mv assets2.json assets.json
+          cat assets.json
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "no changes detected"
+            echo "changes=false" >> "$GITHUB_OUTPUT"
+          else
+            git add .
+            git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
+            if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
+              echo "branch does not have upstream set, setting"
+              git push --set-upstream origin version-updates
+            else
+              echo "pushing changes"
+              git push
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+            fi
+          fi  
+
+      - name: check pr exists
+        id: checkpr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          prs=$(gh pr list \
+            --repo "$GITHUB_REPOSITORY" \
+            --head 'version-updates' \
+            --base 'main' \
+            --json title \
+            --jq 'length')
+          echo $prs
+          if ((prs > 0)); then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: send PR
+        if: '!steps.checkpr.outputs.exists'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create --base main --head version-updates --assignee jimboid --title "Update to assets.json" --body "Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"

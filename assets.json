@@ -218,5 +218,6 @@
       "pypi": true,
       "conda": true
     }
-  }
+  },
+  "workshops": {}
 }
