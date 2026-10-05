@@ -30,6 +30,10 @@ jobs:
 
       - name: change, log and push changes
         id: update
+        env:
+          REPO: ${{ github.event.client_payload.repo }}
+          TAG: ${{ github.event.client_payload.tag }}
+          META: ${{ toJSON(github.event.client_payload.meta) }}
         run: |
           if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
             echo "no branch version-updates, creating"
@@ -38,7 +42,10 @@ jobs:
             echo "branch exists, checking it out"
             git checkout version-updates
           fi
-          jq --arg a "${{ github.event.client_payload.tag }}" '.workshops."${{ github.event.client_payload.repo }}".latest = ($a)' assets.json | jq "." | cat > assets2.json; mv assets2.json assets.json
+
+          jq --arg repo "$REPO" --arg tag "$TAG" --argjson meta "$META" \
+            '.workshops[$repo] = ((.workshops[$repo] // {}) + {latest: $tag} + ($meta | del(.latest)))' \
+            assets.json > assets2.json && mv assets2.json assets.json
           cat assets.json
           if [ -z "$(git status --porcelain)" ]; then
             echo "no changes detected"
