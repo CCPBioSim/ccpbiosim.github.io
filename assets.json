@@ -155,7 +155,7 @@
       "longdesc": ""
     },
     "openff-workshop": {
-      "latest": "2026-10-04",
+      "latest": "2026-10-05",
       "name": "Introducing OpenForceField Tools",
       "category": "advanced",
       "shortdesc": "This workshop introduces the openforcefield tooling.",
