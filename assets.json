@@ -331,6 +331,14 @@
       "longdesc": "",
       "name": "Introducing Coarse-Graining",
       "shortdesc": "This workshop introduces tools for setup and running coarse-grain simulations."
+    },
+    "protein-preparation-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "setup",
+      "longdesc": "",
+      "name": "Preparing Proteins for Simulation",
+      "shortdesc": "This course walks through the process of preparing a simple protein system for molecular dynamics simulation using Ambertools."
     }
   }
 }
