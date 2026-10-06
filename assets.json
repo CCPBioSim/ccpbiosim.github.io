@@ -251,6 +251,14 @@
       "longdesc": "",
       "name": "An Introduction to Clustering",
       "shortdesc": "This course illustrates the application of a variety of clustering methods to an MD trajectory, comparing their performance."
+    },
+    "structure-validation-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "setup",
+      "longdesc": "",
+      "name": "An Introduction to Structure Validation",
+      "shortdesc": "This course will introduce methods to deduce that starting structures for preparing simulations represent high quality starting points."
     }
   }
 }
