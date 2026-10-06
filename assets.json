@@ -387,6 +387,14 @@
       "longdesc": "",
       "name": "Introducing OpenForceField Tools",
       "shortdesc": "This workshop introduces the openforcefield tooling."
+    },
+    "protein-simulation-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "simulation",
+      "longdesc": "",
+      "name": "Running MD Simulations",
+      "shortdesc": "This workshop demonstrates two approaches to running MD simulations on a simple protein system."
     }
   }
 }
