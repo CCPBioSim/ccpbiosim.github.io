@@ -283,6 +283,14 @@
       "longdesc": "",
       "name": "aiida-gromacs - GPCR MD simulation tutorial",
       "shortdesc": "An advanced demonstration showing advanced GPCR workflow with full data provenance collection."
+    },
+    "pca-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "analysis",
+      "longdesc": "",
+      "name": "An Introduction to Principle Component Analysis",
+      "shortdesc": "The aim of this course is to illustrate methods we can use to assess convergence and sampling in MD trajectories."
     }
   }
 }
