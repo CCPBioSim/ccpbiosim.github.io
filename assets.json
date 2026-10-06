@@ -243,6 +243,14 @@
       "longdesc": "",
       "name": "Introduction to Analysis of Ubiquitin",
       "shortdesc": "This course illustrates the application of a number of Python-based tools to the analysis of the results from a short (1 nanosecond) simulation of ubiquitin, investigating the question, how similar is the MD trajectory to the crystal and NMR structures?"
+    },
+    "clustering-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "analysis",
+      "longdesc": "",
+      "name": "An Introduction to Clustering",
+      "shortdesc": "This course illustrates the application of a variety of clustering methods to an MD trajectory, comparing their performance."
     }
   }
 }
