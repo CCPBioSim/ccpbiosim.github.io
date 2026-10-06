@@ -315,6 +315,14 @@
       "longdesc": "",
       "name": "Protein Analysis with Machine Learning",
       "shortdesc": "This course introduces the application of Machine Learning methods (specifically, PCA and clustering) to the analysis of protein simulation data."
+    },
+    "mm-gbsa-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "analysis",
+      "longdesc": "",
+      "name": "Analysing with MM-GBSA",
+      "shortdesc": "This course walks through the process of perfprming a basic MM-GBSA analysis of a molecular dynamics simulation of a protein-ligand complex to estimate the ligand binding free energy."
     }
   }
 }
