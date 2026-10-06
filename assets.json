@@ -363,6 +363,14 @@
       "longdesc": "",
       "name": "An Introduction to Python Programming",
       "shortdesc": "This course will introduce more intermediate features of Python that are useful for biomolecular modellers."
+    },
+    "docking-workflow": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "advanced",
+      "longdesc": "",
+      "name": "Introducing Docking Workflows",
+      "shortdesc": "This course introduces docking tools and workflows."
     }
   }
 }
