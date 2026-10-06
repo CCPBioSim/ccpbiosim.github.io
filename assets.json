@@ -291,6 +291,14 @@
       "longdesc": "",
       "name": "An Introduction to Principle Component Analysis",
       "shortdesc": "The aim of this course is to illustrate methods we can use to assess convergence and sampling in MD trajectories."
+    },
+    "dna-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "simulation",
+      "longdesc": "",
+      "name": "Running DNA Simulations",
+      "shortdesc": "This course introduces tools for running simulations on DNA systems."
     }
   }
 }
