@@ -339,6 +339,14 @@
       "longdesc": "",
       "name": "Preparing Proteins for Simulation",
       "shortdesc": "This course walks through the process of preparing a simple protein system for molecular dynamics simulation using Ambertools."
+    },
+    "protein-analysis-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "analysis",
+      "longdesc": "",
+      "name": "Introduction to the Analysis of Proteins",
+      "shortdesc": "This course introduces the application of MDTraj to the analysis of protein simulation data."
     }
   }
 }
