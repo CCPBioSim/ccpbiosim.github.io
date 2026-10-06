@@ -355,6 +355,14 @@
       "longdesc": "",
       "name": "aiida-gromacs - Lysozyme MD simulation tutorial",
       "shortdesc": "Data provenance tools demonstrated with Justin Lemkul's lysozyme in water simulation tutorial."
+    },
+    "python-workshop": {
+      "latest": "2026-10-06",
+      "authors": "",
+      "category": "coding",
+      "longdesc": "",
+      "name": "An Introduction to Python Programming",
+      "shortdesc": "This course will introduce more intermediate features of Python that are useful for biomolecular modellers."
     }
   }
 }
