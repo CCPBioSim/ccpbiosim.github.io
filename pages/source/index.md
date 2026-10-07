@@ -9,7 +9,9 @@ This is currently a work in progress. Over time we wish to add things like roadm
 maxdepth: 2
 caption: Contents:
 ---
+software-addoption.md
 software-dash.md
+workshop-creation.md
 workshops-dash.md
 new-software.md
 ```
