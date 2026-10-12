@@ -395,6 +395,14 @@
       "longdesc": "",
       "name": "Running MD Simulations",
       "shortdesc": "This workshop demonstrates two approaches to running MD simulations on a simple protein system."
+    },
+    "structure-validation-uglymol": {
+      "latest": "2026-10-12",
+      "authors": "",
+      "category": "infrastructure",
+      "longdesc": "",
+      "name": "Uglymol Image",
+      "shortdesc": "Uglymol container for hosted deployment as part of the structure validation workshop."
     }
   }
 }
