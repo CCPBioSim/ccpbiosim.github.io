@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update-version:
-    name: Update workshop version
+    name: Update workshop data
     runs-on: ubuntu-26.04
     steps:
 
