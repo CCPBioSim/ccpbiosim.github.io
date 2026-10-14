@@ -35,12 +35,12 @@ jobs:
           TAG: ${{ github.event.client_payload.tag }}
           META: ${{ toJSON(github.event.client_payload.meta) }}
         run: |
-          if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
-            echo "no branch version-updates, creating"
-            git checkout -b version-updates
+          if [ -z "$(git ls-remote --heads origin software-updates)" ]; then
+            echo "no branch software-updates, creating"
+            git checkout -b software-updates
           else
             echo "branch exists, checking it out"
-            git checkout version-updates
+            git checkout software-updates
           fi
 
           jq --arg repo "$REPO" --arg tag "$TAG" --argjson meta "$META" \
@@ -53,9 +53,9 @@ jobs:
           else
             git add .
             git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
-            if [ -z "$(git ls-remote --heads origin version-updates)" ]; then
+            if [ -z "$(git ls-remote --heads origin software-updates)" ]; then
               echo "branch does not have upstream set, setting"
-              git push --set-upstream origin version-updates
+              git push --set-upstream origin software-updates
             else
               echo "pushing changes"
               git push
@@ -70,7 +70,7 @@ jobs:
         run: |
           prs=$(gh pr list \
             --repo "$GITHUB_REPOSITORY" \
-            --head 'version-updates' \
+            --head 'software-updates' \
             --base 'main' \
             --json title \
             --jq 'length')
@@ -84,4 +84,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create --base main --head version-updates --assignee jimboid --title "Update to assets.json" --body "Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
+          gh pr create --base main --head software-updates --assignee jimboid --title "Update to assets.json" --body "Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
