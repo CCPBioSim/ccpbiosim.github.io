@@ -12,6 +12,9 @@ jobs:
   update-version:
     name: Update software data
     runs-on: ubuntu-26.04
+    env:
+      NAME: ${{ github.event.client_payload.name }}
+      VERSION: ${{ github.event.client_payload.meta.version }}
     steps:
 
       - name: Turnstyle
@@ -31,8 +34,6 @@ jobs:
       - name: change, log and push changes
         id: update
         env:
-          NAME: ${{ github.event.client_payload.name }}
-          VERSION: "version here"
           META: ${{ toJSON(github.event.client_payload.meta) }}
         run: |
           if [ -z "$(git ls-remote --heads origin software-updates)" ]; then
@@ -52,7 +53,7 @@ jobs:
             echo "changes=false" >> "$GITHUB_OUTPUT"
           else
             git add .
-            git commit -am "update ${{ github.event.client_payload.name }} version to $VERSION"
+            git commit -am "update $NAME version to $VERSION"
             if [ -z "$(git ls-remote --heads origin software-updates)" ]; then
               echo "branch does not have upstream set, setting"
               git push --set-upstream origin software-updates
@@ -84,4 +85,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create --base main --head software-updates --assignee jimboid --title "Update to assets.json" --body "Update ${{ github.event.client_payload.name }} version to $VERSION"
+          gh pr create --base main --head software-updates --assignee jimboid \
+            --title "Update to assets.json" \
+            --body "Update $NAME version to $VERSION"
