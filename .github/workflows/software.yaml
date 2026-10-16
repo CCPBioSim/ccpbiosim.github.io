@@ -31,8 +31,8 @@ jobs:
       - name: change, log and push changes
         id: update
         env:
-          REPO: ${{ github.event.client_payload.repo }}
-          TAG: ${{ github.event.client_payload.tag }}
+          NAME: ${{ github.event.client_payload.name }}
+          VERSION: "version here"
           META: ${{ toJSON(github.event.client_payload.meta) }}
         run: |
           if [ -z "$(git ls-remote --heads origin software-updates)" ]; then
@@ -43,8 +43,8 @@ jobs:
             git checkout software-updates
           fi
 
-          jq --arg repo "$REPO" --arg tag "$TAG" --argjson meta "$META" \
-            '.software[$repo] = ((.software[$repo] // {}) + {latest: $tag} + ($meta | del(.latest)))' \
+          jq --arg name "$NAME" --argjson meta "$META" \
+            '.software[$name] = ((.software[$name] // {}) + ($meta | del(.latest)))' \
             assets.json > assets2.json && mv assets2.json assets.json
           cat assets.json
           if [ -z "$(git status --porcelain)" ]; then
@@ -52,7 +52,7 @@ jobs:
             echo "changes=false" >> "$GITHUB_OUTPUT"
           else
             git add .
-            git commit -am "update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
+            git commit -am "update ${{ github.event.client_payload.name }} version to $VERSION"
             if [ -z "$(git ls-remote --heads origin software-updates)" ]; then
               echo "branch does not have upstream set, setting"
               git push --set-upstream origin software-updates
@@ -84,4 +84,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh pr create --base main --head software-updates --assignee jimboid --title "Update to assets.json" --body "Update ${{ github.event.client_payload.repo }} version to ${{ github.event.client_payload.tag }}"
+          gh pr create --base main --head software-updates --assignee jimboid --title "Update to assets.json" --body "Update ${{ github.event.client_payload.name }} version to $VERSION"
