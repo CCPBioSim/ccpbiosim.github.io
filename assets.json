@@ -54,6 +54,23 @@
       "docs": "https://aiida-gromacs.readthedocs.io",
       "pypi": true,
       "conda": true
+    },
+    "prepmd": {
+      "authors": {
+        "Harry Swift": "https://orcid.org/0009-0007-3323-753X",
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
+        "Robert Welch": ""
+      },
+      "category": "scientific",
+      "conda": true,
+      "docs": "https://prepmd.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/prepmd",
+      "image": "prepmd-logo.svg",
+      "longdesc": "A utility to automatically prepare structures from the PDB for molecular dynamics simulation and perform minimisations and simple MD simulations.",
+      "pypi": false,
+      "shortdesc": "Automatically prepare structures from the PDB for molecular dynamics simulation.",
+      "version": "1.0.2"
     }
   },
   "workshops": {
