@@ -87,6 +87,21 @@
       "pypi": true,
       "shortdesc": "Data schema for biomolecular simulation metadata",
       "version": "1.2.0"
+    },
+    "biosim-extractor": {
+      "authors": {
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
+      },
+      "category": "data-tools",
+      "conda": true,
+      "docs": "https://biosim-extractor.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/biosim-extractor",
+      "image": "biosim-extractor-logo.svg",
+      "longdesc": "biosim-extractor is a tool for extracting simulation data from output files produced from molecular dynamics (MD) simulations of biomolecules and validating against biosim-schema",
+      "pypi": true,
+      "shortdesc": "A tool for extracting metadata from MD simulation outputs",
+      "version": "1.2.0"
     }
   },
   "workshops": {
