@@ -95,6 +95,21 @@
       "pypi": true,
       "shortdesc": "This code is a complete and generally applicable set of tools for computing entropy of macromolecular systems from the forces sampled in a MD simulation.",
       "version": "2.7.0"
+    },
+    "biosim-schema": {
+      "authors": {
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
+      },
+      "category": "data-tools",
+      "conda": true,
+      "docs": "https://biosim-schema.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/biosim-schema",
+      "image": "biosim-schema-logo.svg",
+      "longdesc": "The biomolecular simulation metadata schema used in the BioSimDR platform. It provides the canonical schema, field definitions, and validation assets used to standardize simulation metadata.",
+      "pypi": true,
+      "shortdesc": "Data schema for biomolecular simulation metadata",
+      "version": "1.2.0"
     }
   },
   "workshops": {
