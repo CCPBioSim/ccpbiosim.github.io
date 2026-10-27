@@ -102,6 +102,21 @@
       "pypi": true,
       "shortdesc": "A tool for extracting metadata from MD simulation outputs",
       "version": "1.2.0"
+    },
+    "biosimdb-interface": {
+      "authors": {
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
+      },
+      "category": "data-tools",
+      "conda": false,
+      "docs": "https://biosimdb-interface.readthedocs.io/",
+      "ghcr": true,
+      "github": "https://github.com/CCPBioSim/biosimdb-interface",
+      "image": "biosimdb-interface-logo.svg",
+      "longdesc": "A platform for extracting and uploading simulation data via a web interface to the PSDI hosted BioSimDB community data-collection.",
+      "pypi": false,
+      "shortdesc": "A web interface for extracting and uploading simulation metadata",
+      "version": "2.0.0"
     }
   },
   "workshops": {
