@@ -1,28 +1,5 @@
 {
   "software": {
-    "codeentropy": {
-      "name": "CodeEntropy",
-      "shortdesc": "This code is a complete and generally applicable set of tools for computing entropy of macromolecular systems from the forces sampled in a MD simulation.",
-      "longdesc": "CodeEntropy is a Python package for computing the configurational entropy of macromolecular systems using forces sampled from molecular dynamics (MD) simulations. It implements the multiscale cell correlation method to provide accurate and efficient entropy estimates, supporting a wide range of applications in molecular simulation and statistical mechanics.",
-      "authors": {
-        "Arghya Chakravorty": "https://orcid.org/0000-0002-4467-1135",
-        "Donald Chung-HK": "",
-        "Sarah Fegan": "https://orcid.org/0009-0007-1030-228X",
-        "James Gebbie-Rayet": "https://orcid.org/0000-0001-8271-3431",
-        "Sarah Harris": "https://orcid.org/0000-0002-2812-1651",
-        "Richard Henchman": "https://orcid.org/0000-0002-0461-6625",
-        "Jonathan Higham": "https://orcid.org/0000-0002-9779-9968",
-        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
-        "Ioana Papa": "https://orcid.org/0009-0000-2287-4081",
-        "Harry Swift": "https://orcid.org/0009-0007-3323-753X"
-      },
-      "category": "scientific",
-      "image": "codeentropy-logo-chip-dark.svg",
-      "github": "https://github.com/CCPBioSim/CodeEntropy",
-      "docs": "https://codeentropy.readthedocs.io",
-      "pypi": true,
-      "conda": true
-    },
     "aiida-amber": {
       "name": "aiida-amber",
       "shortdesc": "The AMBER plugin for AiiDA aims to enable the capture and sharing of the full provenance of data when parameterising and running molecular dynamics simulations.",
@@ -54,6 +31,92 @@
       "docs": "https://aiida-gromacs.readthedocs.io",
       "pypi": true,
       "conda": true
+    },
+    "prepmd": {
+      "authors": {
+        "Harry Swift": "https://orcid.org/0009-0007-3323-753X",
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
+        "Robert Welch": ""
+      },
+      "category": "scientific",
+      "conda": true,
+      "docs": "https://prepmd.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/prepmd",
+      "image": "prepmd-logo.svg",
+      "longdesc": "A utility to automatically prepare structures from the PDB for molecular dynamics simulation and perform minimisations and simple MD simulations.",
+      "pypi": false,
+      "shortdesc": "Automatically prepare structures from the PDB for molecular dynamics simulation.",
+      "version": "1.0.2"
+    },
+    "CodeEntropy": {
+      "authors": {
+        "Arghya Chakravorty": "https://orcid.org/0000-0002-4467-1135",
+        "Donald Chung-HK": "",
+        "Harry Swift": "https://orcid.org/0009-0007-3323-753X",
+        "Ioana Papa": "https://orcid.org/0009-0000-2287-4081",
+        "James Gebbie-Rayet": "https://orcid.org/0000-0001-8271-3431",
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
+        "Jonathan Higham": "https://orcid.org/0000-0002-9779-9968",
+        "Richard Henchman": "https://orcid.org/0000-0002-0461-6625",
+        "Sarah Fegan": "https://orcid.org/0009-0007-1030-228X",
+        "Sarah Harris": "https://orcid.org/0000-0002-2812-1651"
+      },
+      "category": "scientific",
+      "conda": true,
+      "docs": "https://codeentropy.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/CodeEntropy",
+      "image": "codeentropy-logo-chip-dark.svg",
+      "longdesc": "CodeEntropy is a Python package for computing the configurational entropy of macromolecular systems using forces sampled from molecular dynamics (MD) simulations. It implements the multiscale cell correlation method to provide accurate and efficient entropy estimates, supporting a wide range of applications in molecular simulation and statistical mechanics.",
+      "pypi": true,
+      "shortdesc": "This code is a complete and generally applicable set of tools for computing entropy of macromolecular systems from the forces sampled in a MD simulation.",
+      "version": "2.7.0"
+    },
+    "biosim-schema": {
+      "authors": {
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
+      },
+      "category": "data-tools",
+      "conda": true,
+      "docs": "https://biosim-schema.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/biosim-schema",
+      "image": "biosim-schema-logo.svg",
+      "longdesc": "The biomolecular simulation metadata schema used in the BioSimDR platform. It provides the canonical schema, field definitions, and validation assets used to standardize simulation metadata.",
+      "pypi": true,
+      "shortdesc": "Data schema for biomolecular simulation metadata",
+      "version": "1.2.0"
+    },
+    "biosim-extractor": {
+      "authors": {
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
+      },
+      "category": "data-tools",
+      "conda": true,
+      "docs": "https://biosim-extractor.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/biosim-extractor",
+      "image": "biosim-extractor-logo.svg",
+      "longdesc": "biosim-extractor is a tool for extracting simulation data from output files produced from molecular dynamics (MD) simulations of biomolecules and validating against biosim-schema",
+      "pypi": true,
+      "shortdesc": "A tool for extracting metadata from MD simulation outputs",
+      "version": "1.2.0"
+    },
+    "biosimdb-interface": {
+      "authors": {
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
+      },
+      "category": "data-tools",
+      "conda": false,
+      "docs": "https://biosimdb-interface.readthedocs.io/",
+      "ghcr": true,
+      "github": "https://github.com/CCPBioSim/biosimdb-interface",
+      "image": "biosimdb-interface-logo.svg",
+      "longdesc": "A platform for extracting and uploading simulation data via a web interface to the PSDI hosted BioSimDB community data-collection.",
+      "pypi": false,
+      "shortdesc": "A web interface for extracting and uploading simulation metadata",
+      "version": "2.0.0"
     }
   },
   "workshops": {
