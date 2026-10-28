@@ -116,7 +116,8 @@
       "longdesc": "A platform for extracting and uploading simulation data via a web interface to the PSDI hosted BioSimDB community data-collection.",
       "pypi": false,
       "shortdesc": "A web interface for extracting and uploading simulation metadata",
-      "version": "2.0.0"
+      "version": "2.1.0",
+      "name": "BioSimDB Interface"
     }
   },
   "workshops": {
