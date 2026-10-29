@@ -101,7 +101,8 @@
       "longdesc": "biosim-extractor is a tool for extracting simulation data from output files produced from molecular dynamics (MD) simulations of biomolecules and validating against biosim-schema",
       "pypi": true,
       "shortdesc": "A tool for extracting metadata from MD simulation outputs",
-      "version": "1.2.0"
+      "version": "1.2.1",
+      "name": "BioSimDB Extractor"
     },
     "biosimdb-interface": {
       "authors": {
