@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme sphinxcontrib-contentui sphinxcontrib-details-directive sphinx_copybutton furo myst_parser
+          pip install sphinx myst_parser "ccpbiosim-sphinx-theme>=1.3.2,<2.0"
 
       - name: Sphinx build
         run: |
