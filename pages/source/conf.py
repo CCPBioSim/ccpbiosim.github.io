@@ -38,20 +38,10 @@ release = ""
 # -- General configuration ---------------------------------------------------
 
 extensions = [
-    "sphinx.ext.autosummary",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.viewcode",
-    "sphinx.ext.napoleon",
     "sphinx.ext.intersphinx",
     "sphinx.ext.extlinks",
-    "sphinx_copybutton",
     "myst_parser",
 ]
-
-autosummary_generate = True
-napoleon_google_docstring = False
-napoleon_use_param = False
-napoleon_use_ivar = True
 
 source_suffix = [".rst", ".md"]
 master_doc = "index"
@@ -65,12 +55,9 @@ pygments_style = "default"
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = "furo"
+html_theme = "ccpbiosim_sphinx_theme"
 html_title = "Developers Resources"
-html_theme_options = {
-"light_logo": "ccpbiosim-logo-black-bottom-text.png",  # Your light mode logo file
-"dark_logo": "ccpbiosim-logo-white-bottom-text.png",   # Your dark mode logo file
-}
+html_context = {"github_repo": "ccpbiosim.github.io", "doc_path": "pages/source"}
 
 html_static_path = ["_static"]
 
@@ -103,7 +90,3 @@ texinfo_documents = [
         "CCPBioSim developer pages for its GitHub organisation.",
     ),
 ]
-
-# -- Extension configuration -------------------------------------------------
-def setup(app):
-    app.add_css_file("custom.css")
