@@ -33,6 +33,7 @@
       "conda": true
     },
     "prepmd": {
+      "name": "prepmd",
       "authors": {
         "Harry Swift": "https://orcid.org/0009-0007-3323-753X",
         "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
@@ -50,6 +51,7 @@
       "version": "1.0.2"
     },
     "CodeEntropy": {
+      "name": "CodeEntropy",
       "authors": {
         "Arghya Chakravorty": "https://orcid.org/0000-0002-4467-1135",
         "Donald Chung-HK": "",
@@ -74,6 +76,7 @@
       "version": "2.7.0"
     },
     "biosim-schema": {
+      "name": "BioSimDB Schema",
       "authors": {
         "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
       },
@@ -89,6 +92,7 @@
       "version": "1.2.0"
     },
     "biosim-extractor": {
+      "name": "BioSimDB Extractor",
       "authors": {
         "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
       },
@@ -105,6 +109,7 @@
       "name": "BioSimDB Extractor"
     },
     "biosimdb-interface": {
+      "name": "BioSimDB Interface",
       "authors": {
         "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864"
       },
@@ -123,7 +128,7 @@
   },
   "workshops": {
     "pdb2pqr-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "setup",
       "longdesc": "",
@@ -131,7 +136,7 @@
       "shortdesc": "This short course illustrates the application of pdb2pqr to the analysis of the tautomeric and ionization states of residues in the structure of the cysteine protease cruzein (PDB code 2oz2) - the results may not be what you would have expected!"
     },
     "jupyterhub-base": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "infrastructure",
       "longdesc": "",
@@ -139,7 +144,7 @@
       "shortdesc": "CCPBioSim JupyterHub base container for use in other training workshops."
     },
     "ubiquitin-analysis-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -147,7 +152,7 @@
       "shortdesc": "This course illustrates the application of a number of Python-based tools to the analysis of the results from a short (1 nanosecond) simulation of ubiquitin, investigating the question, how similar is the MD trajectory to the crystal and NMR structures?"
     },
     "clustering-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -155,7 +160,7 @@
       "shortdesc": "This course illustrates the application of a variety of clustering methods to an MD trajectory, comparing their performance."
     },
     "structure-validation-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "setup",
       "longdesc": "",
@@ -163,7 +168,7 @@
       "shortdesc": "This course will introduce methods to deduce that starting structures for preparing simulations represent high quality starting points."
     },
     "basic-statistics-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -171,7 +176,7 @@
       "shortdesc": "This course illustrates how basic statistical concepts can be applied to the analysis of biomolecular simlation data"
     },
     "equilibration-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "setup",
       "longdesc": "",
@@ -179,7 +184,7 @@
       "shortdesc": "This course looks at one of the most common methods for assessing equilibration: the calculation of RMSDs. It may be a common approach, but is it a good one? Maybe not."
     },
     "aiida-gpcr-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "advanced",
       "longdesc": "",
@@ -187,7 +192,7 @@
       "shortdesc": "An advanced demonstration showing advanced GPCR workflow with full data provenance collection."
     },
     "pca-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -195,7 +200,7 @@
       "shortdesc": "The aim of this course is to illustrate methods we can use to assess convergence and sampling in MD trajectories."
     },
     "dna-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "simulation",
       "longdesc": "",
@@ -203,7 +208,7 @@
       "shortdesc": "This course introduces tools for running simulations on DNA systems."
     },
     "basic-analysis-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -211,7 +216,7 @@
       "shortdesc": "In this course we will explore some of the issues in simulation preparation and analysis that can trip up the unwary, and how to avoid them."
     },
     "protein-ml-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -219,7 +224,7 @@
       "shortdesc": "This course introduces the application of Machine Learning methods (specifically, PCA and clustering) to the analysis of protein simulation data."
     },
     "mm-gbsa-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -227,7 +232,7 @@
       "shortdesc": "This course walks through the process of perfprming a basic MM-GBSA analysis of a molecular dynamics simulation of a protein-ligand complex to estimate the ligand binding free energy."
     },
     "coarse-graining-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "advanced",
       "longdesc": "",
@@ -235,7 +240,7 @@
       "shortdesc": "This workshop introduces tools for setup and running coarse-grain simulations."
     },
     "protein-preparation-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "setup",
       "longdesc": "",
@@ -243,7 +248,7 @@
       "shortdesc": "This course walks through the process of preparing a simple protein system for molecular dynamics simulation using Ambertools."
     },
     "protein-analysis-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
@@ -251,7 +256,7 @@
       "shortdesc": "This course introduces the application of MDTraj to the analysis of protein simulation data."
     },
     "aiida-lysozyme-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "setup",
       "longdesc": "",
@@ -259,7 +264,7 @@
       "shortdesc": "Data provenance tools demonstrated with Justin Lemkul's lysozyme in water simulation tutorial."
     },
     "python-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "coding",
       "longdesc": "",
@@ -267,7 +272,7 @@
       "shortdesc": "This course will introduce more intermediate features of Python that are useful for biomolecular modellers."
     },
     "docking-workflow": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "advanced",
       "longdesc": "",
@@ -275,7 +280,7 @@
       "shortdesc": "This course introduces docking tools and workflows."
     },
     "qmmm-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "advanced",
       "longdesc": "",
@@ -283,7 +288,7 @@
       "shortdesc": "The course will introduce non-specialists to the use of combined quantum mechanics/molecular mechanics (QM/MM) methods for modelling enzyme-catalysed reaction mechanisms."
     },
     "openff-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "advanced",
       "longdesc": "",
@@ -291,7 +296,7 @@
       "shortdesc": "This workshop introduces the openforcefield tooling."
     },
     "protein-simulation-workshop": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "simulation",
       "longdesc": "",
@@ -299,7 +304,7 @@
       "shortdesc": "This workshop demonstrates two approaches to running MD simulations on a simple protein system."
     },
     "structure-validation-uglymol": {
-      "latest": "2026-10-12",
+      "latest": "2026-11-02",
       "authors": "",
       "category": "infrastructure",
       "longdesc": "",
