@@ -44,9 +44,14 @@ jobs:
             git checkout software-updates
           fi
 
-          jq --arg name "$NAME" --argjson meta "$META" \
-            '.software[$name] = ((.software[$name] // {}) + ($meta | del(.latest)))' \
+          jq --arg key "$NAME" --argjson meta "$META" \
+            '.software[$key] = (
+               (.software[$key] // {}) 
+               | . + ($meta | del(.latest))
+               | if .name == null then .name = $key else . end
+             )' \
             assets.json > assets2.json && mv assets2.json assets.json
+            
           cat assets.json
           if [ -z "$(git status --porcelain)" ]; then
             echo "no changes detected"
@@ -60,9 +65,9 @@ jobs:
             else
               echo "pushing changes"
               git push
-            echo "changes=true" >> "$GITHUB_OUTPUT"
             fi
-          fi  
+            echo "changes=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: check pr exists
         id: checkpr
