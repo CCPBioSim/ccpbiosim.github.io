@@ -106,7 +106,6 @@
       "pypi": true,
       "shortdesc": "A tool for extracting metadata from MD simulation outputs",
       "version": "1.2.1",
-      "name": "BioSimDB Extractor"
     },
     "biosimdb-interface": {
       "name": "BioSimDB Interface",
@@ -123,7 +122,6 @@
       "pypi": false,
       "shortdesc": "A web interface for extracting and uploading simulation metadata",
       "version": "2.1.1",
-      "name": "BioSimDB Interface"
     }
   },
   "workshops": {
