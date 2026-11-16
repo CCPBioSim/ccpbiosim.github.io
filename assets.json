@@ -142,7 +142,7 @@
       "shortdesc": "CCPBioSim JupyterHub base container for use in other training workshops."
     },
     "ubiquitin-analysis-workshop": {
-      "latest": "2026-11-10",
+      "latest": "2026-11-16",
       "authors": "",
       "category": "analysis",
       "longdesc": "",
