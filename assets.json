@@ -122,6 +122,30 @@
       "pypi": false,
       "shortdesc": "A web interface for extracting and uploading simulation metadata",
       "version": "2.2.0"
+    },
+    "SIST": {
+      "authors": {
+        "Craig Benham": "",
+        "Dina Zhabinskaya": "",
+        "Harry Swift": "https://orcid.org/0009-0007-3323-753X",
+        "James Gebbie-Rayet": "https://orcid.org/0000-0001-8271-3431",
+        "Jas Kalayan": "https://orcid.org/0000-0002-6833-1864",
+        "Richard M. Fye": "",
+        "Sally Madden": "",
+        "Sarah Harris": "https://orcid.org/0000-0002-2812-1651",
+        "Victor Velasco-Berrelleza": "https://orcid.org/0000-0002-4809-6254"
+      },
+      "category": "scientific",
+      "conda": true,
+      "docs": "https://sist.readthedocs.io/",
+      "ghcr": false,
+      "github": "https://github.com/CCPBioSim/SIST",
+      "image": "sist-logo.svg",
+      "longdesc": "SIST calculates stress-induced structural transition probabilities in superhelical DNA, including strand separation, Z-DNA formation, cruciform extrusion, and competition between these transitions.",
+      "name": "SIST",
+      "pypi": false,
+      "shortdesc": "SIST - A tool for calculating Stress-Induced Structural Transition probabilities in superhelical.",
+      "version": "1.2.0"
     }
   },
   "workshops": {
